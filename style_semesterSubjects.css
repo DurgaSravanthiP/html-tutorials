@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13.33px;
+    
+}
+.one{
+    width: 980px;
+    height: 500px;
+    background-color: white;
+    margin-left:135px;
+    display: flex;
+}
+.left{
+    height: 580px;
+    width: 20%;
+    margin: 5px;
+    background: #f4f4f4;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+}
+.top{
+    width: 650px;
+    height: 50px;
+    margin: 5px;
+    background: #f4f4f4;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    width: 650px;
+    height:550px;
+    margin: 5px;
+    display: flex;
+}
+.right{
+    height: 580px;
+    width: 11%;
+    margin: 5px;
+    background: #f4f4f4;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    text-align: center;
+}
+.two{
+    display: inline-block;
+}
+.mid1{
+    width: 320px;
+    height: 550px;
+    margin: 5px;
+}
+.mid2{
+    width: 320px;
+    height: 550px;
+    margin: 5px;
+}
+.sem1{
+    width: 320px;
+    height: 260px;
+    margin: 5px;
+}
+.sem1h{
+    text-align: center;
+    color: #0000ee;
+    font-size: 20px;
+    width: 200px;
+    background-color: #f4f4f4;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+
+.sem1sub{
+ margin-top: 20px;
+}
+.sem2{
+    width: 320px;
+    height: 260px;
+    margin: 5px;
+}
+.sem2h{
+    text-align: center;
+    color: #0000ee;
+    font-size: 20px;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    width: 200px;
+    background-color: #f4f4f4;
+}
+.sem2sub{
+    margin-top: 20px;
+}
+.sem3{
+    width: 320px;
+    height: 260px;
+    margin: 5px;
+}
+.sem3h{
+    text-align: center;
+    color: #0000ee;
+    font-size: 20px;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    width: 200px;
+    background-color: #f4f4f4;
+}
+.sem4{
+    width: 320px;
+    height: 260px;
+    margin: 5px;
+}
+.sem4h{
+    text-align: center;
+    color: #0000ee;
+    font-size: 20px;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    width: 200px;
+    background-color: #f4f4f4;
+}
+
+li{
+    list-style-type: none;
+    padding: 2px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #0000ee;
+}
+a:hover{
+    color: maroon;
+    text-decoration: underline;
+    background-color: #f4f4f4;
+}
+.t{
+    text-align: center;
+    color: #0000ee;
+    font-size: 20px;
+    width: 200px;
+    background-color: #f4f4f4;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    font-weight: bold;
+}
+.t:hover{
+    background-color: white;
+    color: maroon;
+    text-decoration: underline;
+}
+.logo{
+    background-image: url("srmaplogo.png");
+    background-size: cover;
+    height: 50px;
+    width:80%;
+    margin: 10px;
+}
+.add{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    color: #090;
+    background-color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.search-icon{
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    color: gray;
+    margin-left: 10px;
+}
+.search1{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+.search-input{
+    border-left: none;
+    font-size: 1.2rem;
+    width: 80px;
+    border: none;
+}
+.calen{
+    text-align: center;
+    margin: 20px;
+    
+}
+.cal{
+    margin-left: 12px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+.today{
+    background-color: rgb(244, 244, 147);
+}
+.leftlinks{
+    margin-bottom: 5px;
+}
+.loc-icon{
+    font-size: 20px;
+}
+.statename{
+    font-size: 30px;
+    color: #0000ee;
+    font-weight: bold;
+}
+.statename:hover{
+    color: maroon;
+    text-decoration: underline;
+}
+.four{
+    text-align: center;
+}
+.lan-links{
+    margin: 10px;
+}
+.w{
+    padding: 5px;
+    color: black;
+}
+.middle li{
+    border-bottom: 1px solid #ccc;
+}
