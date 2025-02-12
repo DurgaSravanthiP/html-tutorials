@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse an Array</title>
+    <title>Reverse a String</title>
 </head>
 <body>
-    <h1>Reverse an Array</h1>
-    <input type="text" id="arrayInput" placeholder="Enter numbers separated by commas">
-    <button onclick="reverseArray()">Reverse</button>
+    <h1>Reverse a String</h1>
+    <input type="text" id="stringInput" placeholder="Enter a string">
+    <button onclick="reverseString()">Reverse</button>
     <p id="result"></p>
-
     <script>
-        function reverseArray() {
-            let input = document.getElementById("arrayInput").value;
-            let numArray = input.split(",").map(Number);
-            let reversed = numArray.reverse();
-            document.getElementById("result").textContent = "Reversed Array: " + reversed.join(", ");
+        function reverseString() {
+            let input = document.getElementById("stringInput").value;
+            let reversed = input.split("").reverse().join("");
+            document.getElementById("result").textContent = "Reversed String: " + reversed;
         }
     </script>
 </body>
